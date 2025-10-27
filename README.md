@@ -20,83 +20,92 @@ O projeto foi criado com o intuito de <strong>praticar lógica</strong>, <strong
 </div>
 
 <h3>🎮 Como o jogo funciona</h3>
-    <ul>
-        <li>Ao iniciar, o jogador é recebido com uma <strong>tela inicial</strong> que contém:</li>
-        <ul>
-            <li>Um <strong>botão “Começar”</strong></li>
 
-            <li><strong>Música de fundo</strong></li>
+<ul>
 
-            <li><strong>Som ao clicar no botão</strong></li>
-        </ul>
-        <li>Durante o jogo:</li>
-        <ul>
-            <li>O <strong>Mario</strong> se movimenta <strong>para a esquerda e direita</strong> usando o teclado ou tela do celular.</li>
+<li>Ao iniciar, o jogador é recebido com uma <strong>tela inicial</strong> que contém:</li>
 
-            <li><strong>Inimigos</strong> caem de cima para baixo na tela.</li>
+<ul>
 
-            <li>A cada segundo sobrevivido, o jogador ganha 1 ponto.</li>
+<li>Um <strong>botão “Começar”</strong></li>
 
-            <li>Se o Mario colidir com um inimigo:</li>
-            <ul>                           
-                <li>Um <strong>som de colisão</strong> é reproduzido.</li>
+<li><strong>Música de fundo</strong></li>
 
-                <li>O jogo <strong>para automaticamente</strong>.</li>
+<li><strong>Som ao clicar no botão</strong></li>
+</ul>
+<li>Durante o jogo:</li>
+<ul>
+<li>O <strong>Mario</strong> se movimenta <strong>para a esquerda e direita</strong> usando o teclado ou tela do celular.</li>
 
-                <li>Uma nova tela de início é exibida.</li>
-            </ul>    
-        </ul>
+<li><strong>Inimigos</strong> caem de cima para baixo na tela.</li>
 
-        <li>Tanto na tela inicial quanto durante a partida há <strong>trilha sonora</strong>, controlada via JavaScript.</li>
-    </ul>
+<li>A cada segundo sobrevivido, o jogador ganha 1 ponto.</li>
+
+<li>Se o Mario colidir com um inimigo:</li>
+<ul>                           
+<li>Um <strong>som de colisão</strong> é reproduzido.</li>
+
+<li>O jogo <strong>para automaticamente</strong>.</li>
+
+<li>Uma nova tela de início é exibida.</li>
+</ul>    
+</ul>
+
+<li>Tanto na tela inicial quanto durante a partida há <strong>trilha sonora</strong>, controlada via JavaScript.</li>
+</ul>
 
 <h3>⚙️ Tecnologias Utilizadas</h3>
 <ul>
-    <li><strong>JavaScript (puro)</strong></li>
-    <ul>
-        <li>Criação dinâmica de elementos HTML (<span style="background-color: black;">document.createElement</span>)</li>
 
-        <li>Estilização via propriedades CSS diretamente no JS (<span style="background-color: black;">element.style</span>)</li>
+<li><strong>JavaScript (puro)</strong></li>
 
-        <li>Manipulação de eventos (<span style="background-color: black;">keydown, click, collision detection</span>)</li>
+<ul>
 
-        Controle de sons e trilhas (<span style="background-color: black;">Audio()</span>)
-    </ul>
-    <li>💡 Todo o jogo foi desenvolvido <strong>sem uso de frameworks ou bibliotecas externas</strong>, reforçando o aprendizado em <strong>lógica de programação</strong> e <strong>DOM puro</strong>.</li>
+<li>Criação dinâmica de elementos HTML (<span style="background-color: black;">document.createElement</span>)</li>
+
+<li>Estilização via propriedades CSS diretamente no JS (<span style="background-color: black;">element.style</span>)</li>
+
+<li>Manipulação de eventos (<span style="background-color: black;">keydown, click, collision detection</span>)</li>
+
+<li>Controle de sons e trilhas (<span style="background-color: black;">Audio()</span>)</li>
+</ul>
+<li>💡 Todo o jogo foi desenvolvido <strong>sem uso de frameworks ou bibliotecas externas</strong>, reforçando o aprendizado em <strong>lógica de programação</strong> e <strong>DOM puro</strong>.</li>
 </ul>
 
 <h3>🧠 Conceitos Praticados</h3>
-<uL>
-    <li>Manipulação do <strong>DOM</strong> em tempo real</li>
+<ul>
+<li>Manipulação do <strong>DOM</strong> em tempo real</li>
 
-    <li><strong>Criação e remoção dinâmica</strong> de elementos</li>
+<li><strong>Criação e remoção dinâmica</strong> de elementos</li>
 
-    <li><strong>Detecção de colisão</strong> entre objetos</li>
+<li><strong>Detecção de colisão</strong> entre objetos</li>
 
-    <li><strong>Controle de tempo e pontuação</strong></li>
+<li><strong>Controle de tempo e pontuação</strong></li>
 
-    <li>Uso de <strong>áudio</strong> no navegador</li>
+<li>Uso de <strong>áudio</strong> no navegador</li>
 
-    <li><strong>Estruturação lógica</strong> de estados de jogo (início, execução, fim)</li>
+<li><strong>Estruturação lógica</strong> de estados de jogo (início, execução, fim)</li>
 </ul>
+
 <h3>🚀 Como Executar o Projeto</h3>
 <ol>
-    <li><strong>Clone este repositório:</strong>
+<li><strong>Clone este repositório:</strong>
 
-    ```bash
-    git clone https://github.com/seuusuario/mario-race.git
-    ```
-    </li>
+```bash
+git clone https://github.com/seuusuario/mario-race.git
+```
+</li>
 
-    <li><strong>Entre na pasta do projeto:</strong>
+<li><strong>Entre na pasta do projeto:</strong>
 
-    ```bash
-    cd mario-race
-    ```
-    </li>
-    <li><strong>Abra o arquivo</strong> <span style="background-color: black;">index.html</span> no seu navegador
-    <br>
-    <i>(ou use a extensão <strong>Live Server</strong> no VS Code)</i></li>
+```bash
+cd mario-race
+```
+</li>
+
+<li><strong>Abra o arquivo</strong> <span style="background-color: black;">index.html</span> no seu navegador
+<br>
+<i>(ou use a extensão <strong>Live Server</strong> no VS Code)</i></li>
 </ol>
 <h3>📌 Status do Projeto</h3>
 
