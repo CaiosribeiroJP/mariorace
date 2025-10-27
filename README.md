@@ -5,7 +5,7 @@ O projeto foi criado com o intuito de <strong>praticar lógica</strong>, <strong
 
 <h3>🚀 Demonstração</h3>
 
-🎮 <a href="https://caiosribeirojp.com/mariorace/"><u>Jogar agora</u></a>
+🎮 <a href="https://caiosribeirojp.com/mariorace/" target="_blank"><u>Jogar agora</u></a>
 
 <strong>📸 Prévia do jogo:</strong>
 
@@ -126,3 +126,4 @@ Desenvolvido por <a href="https://www.linkedin.com/in/caiosribeirojp/"><u>Caio R
 © 2025 <strong>CaiosribeiroJP</strong>
 Este projeto foi criado para fins de estudo e portfólio.
 Sinta-se à vontade para explorar o código e utilizá-lo como referência, mantendo os créditos ao autor.
+
